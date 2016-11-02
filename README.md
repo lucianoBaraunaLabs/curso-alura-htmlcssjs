@@ -1,6 +1,3 @@
-# estudo-AluraHtmlCssJsTecweb
-Repositório destinado aos estudos da plataforma Alura sobre Html/CSS/JS - Praticando Tecnologias Web
-
 # Estudo - HTML, CSS e JavaScript: Praticando com as tecnologias da Web
 Repositório destinado aos estudos da plataforma Alura sobre HTML, CSS e JavaScript: Praticando com as tecnologias da Web
 
