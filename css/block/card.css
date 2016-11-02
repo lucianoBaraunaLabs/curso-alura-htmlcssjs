@@ -1,0 +1,71 @@
+.card {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+  width: 24%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrap-card-options {
+  position: absolute;
+  top: -16px;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: opacity linear 0.2s;
+       -o-transition: opacity linear 0.2s;
+          transition: opacity linear 0.2s;
+}
+
+.card:hover .wrap-card-options {
+  opacity: 1;
+}
+
+.card-options {
+  cursor: pointer;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  text-indent: -9999px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+[data-color="first"] {
+  background-color: #45AEEE;
+}
+
+[data-color="second"]{
+  background-color: #FF1010;
+}
+
+[data-color="third"]{
+  background-color: #76EF40;
+}
+
+[data-color="fourth"]{
+  background-color: #EBEF40;
+}
+
+.card_delete {
+  margin-right: 15px;
+}
+
+.card_delete,
+.card_edit {
+  font-size: 15px;
+  text-indent: 0;
+}
+
+.card-content[contenteditable='true'] {
+  outline: 2px dashed rgba(0, 0, 0, 0.5);
+}
+
+.card-options.isActive { border-width: 4px; }
